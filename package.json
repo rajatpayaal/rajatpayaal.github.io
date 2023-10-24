@@ -1,6 +1,6 @@
 {
 
-    "homepage": "https://rajatpayaal.github.io/rajatpayaal.github.io",
+    "homepage": "https://rajatpayaal.github.io/",
 
     "name": "rajatpayaal.github.io",
 
@@ -14,8 +14,9 @@
 
         "dev": "vite",
 
-         "predeploy": "npm run build",
-         "deploy": "gh-pages -d build",
+        "predeploy": "npm run build",
+
+        "deploy": "gh-pages -d build",
 
         "build": "vite build",
 
