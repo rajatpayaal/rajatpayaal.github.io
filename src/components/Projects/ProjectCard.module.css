@@ -1,0 +1,87 @@
+@import "../../vars.css";
+  @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200&display=swap');
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-image: linear-gradient(109.6deg, rgba(61, 131, 97, 1) 11.2%, rgba(28, 103, 88, 1) 91.1%);
+    box-shadow: 0 8px 7px 0 #f6f6f6;
+    padding: 18px 24px;
+    max-width: 345px;
+    margin-top: 50px;
+    color: var(--color-text);
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    transition: transform 0.3s ease; /* Add a smooth transition for the zoom effect */
+  }
+  
+  .container:hover {
+    transform: scale(1.1); /* Adjust the scale factor to zoom in (1.1 means 110% of original size) */
+    cursor: zoom-in; /* Change the cursor to indicate zooming in */
+  }
+  
+
+.image {
+  margin-bottom: 26px;
+  width: 100px;
+  height: 100px;
+  margin-left: 80px;
+  
+  
+  
+}
+
+.title {
+  font-size: clamp(1.5rem, 1vw + 0.50rem, 2.5rem);
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: clamp(1.1rem, 1vw + 0.50rem, 1.3rem);
+  font-weight: 400;
+  
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 100px;
+  color:black;
+  background-image: linear-gradient( 89.4deg,  rgb(222, 223, 230) -4.3%, rgba(119,125,165,1) 102.1% );
+  padding: 2px 22px;
+}
+
+.links {
+  width: 100%;
+  
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color:black;
+  font-size: 25px;
+  
+  font-weight: 600;
+  border-radius: 80px;
+  /* background-image: linear-gradient( 89.4deg,  rgb(222, 223, 230) -4.3%, rgba(119,125,165,1) 102.1% ); */
+  background-image: linear-gradient( 89.4deg,  rgb(28, 28, 28) -4.3%, rgb(59, 59, 59) 102.1% );
+  padding: 1px 22px;
+}

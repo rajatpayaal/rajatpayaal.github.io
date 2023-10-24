@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Language",
+    "component1":["Python"],
+    "component2":["JAVA"],
+    "component3":["JavaScript"],
+    "component4":["C++S"],
+    
+
+    "imageSrc": "skills/languages.png"
+  },
+  {
+    "title": "Frmwrk.|Lib|Env.",
+    "component1":["React"],
+    "component2":["TensorFSlow"],
+    "component3":["Flutter"],
+    "component4":["Node"],
+    "imageSrc": "skills/framework.png"
+  },
+  {
+    "title": "Platforms",
+    "component1":["Linux"],
+    "component2":["Windows"],
+  
+    "imageSrc": "skills/plateforms.png"
+  },
+  {
+    "title": "DataBases",
+    "component1":["MySQL"],
+    "component2":["MongoDB"],
+    "component3":["RDBMS"],
+    
+    "imageSrc": "skills/database.png"
+  },
+  {
+    "title": "Tools",
+    "component1":["Git"],
+    "component2":["TensorFSlow"],
+    "component3":["Android Studio"],
+    
+    "imageSrc": "skills/tools.png"
+  },
+  {
+    "title": "General",
+    "component1":["APIs"],
+    "component2":["IoT Basics"],
+    "component3":["UI/UX"],
+    
+    "imageSrc": "skills/general.png"
+  }
+]

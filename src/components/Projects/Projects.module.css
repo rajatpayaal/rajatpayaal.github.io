@@ -1,0 +1,35 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+/* project title font size  */
+.title {
+  color: var(--color-text);
+ 
+  font-weight: 700;
+  font-size: clamp(2rem, 2vw + 0.75rem, 6rem);
+  letter-spacing: 5px;
+  background-image: radial-gradient( circle 321px at 8.3% 75.7%,  rgba(209,247,241,1) 0%, rgba(249,213,213,1) 81% );
+  -webkit-background-clip:text;
+  color:transparent;
+
+
+  text-decoration: none;
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}

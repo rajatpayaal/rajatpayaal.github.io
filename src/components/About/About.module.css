@@ -1,0 +1,146 @@
+@import "../../vars.css";
+
+
+.container {
+  position: relative;
+  /* background-color:#003366; */
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 50px;
+  z-index: 1;
+  width: 80%; /* Adjust the width as needed */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.title11 {
+  font-size: clamp(2.5rem, 2.5vw + 0.75rem, 9rem);
+  color: var(--color-text);
+  font-weight: 100px;
+
+  background-image: radial-gradient( circle 321px at 8.3% 75.7%,  rgba(209,247,241,1) 0%, rgba(249,213,213,1) 81% );
+  -webkit-background-clip: text;
+  color: transparent;
+
+  /* text-decoration: none; */
+  font-family: var( --font-roboto);
+}
+
+.morebutton {
+  border-radius: 15px;
+  font-weight: clamp(1rem, 1vw + 0.50rem, 10rem);
+  font-weight: 300;
+  background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+  /* -webkit-background-clip:text; */
+  color: white;
+  font-size: clamp(1.5rem, 1.5vw + 0.75rem, 7rem);
+  /* cursor: pointer; */
+  
+  /* Additional styles */
+
+  text-decoration: none; /* Remove underlines for links */
+  display: inline-block; /* Make it an inline block for proper sizing */
+  transition: background-color 0.3s ease; /* Smooth color transition on hover */
+
+  /* Hover effect */
+  &:hover {
+    background-image: linear-gradient(-225deg, #30D2BE 0%, #3584A7 51%, #473B7B 100%);
+  }
+}
+
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutImage {
+  width: 35%;
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  /* background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ); */
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.aboutItem p {
+
+  /* font size */
+  font-size: clamp(1rem, 2vw + 0.75rem, 2rem);
+}
+.imgsiz {
+  width: clamp(2rem, 8vw + 2.50rem, 10rem);
+  height: clamp(2rem, 8vw + 2.50rem, 10rem);
+  /* Optionally, you can add additional styling to the container */
+
+  /* Animation for moving left and right */
+  animation: moveLeftRight 1s linear infinite;
+}
+
+@keyframes moveLeftRight {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px); /* Adjust the distance as needed */
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+  }
+
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+
+}

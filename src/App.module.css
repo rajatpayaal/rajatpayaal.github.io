@@ -1,0 +1,43 @@
+@import "./vars.css";
+
+.App {
+  background-color: var(--color-bg);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(40, 39, 37)  90%,rgba(100,43,115,1)0% );
+  
+
+}
+
+.navbar{
+  background-color: var(--color-bg);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: linear-gradient( 109.6deg,  rgba(0,191,165,1) 11.2%, rgba(0,140,122,1) 100.2% );
+  border: 4px solid #ffffff; 
+  border-radius: 10px;
+
+}
+.About{
+  background-color: var(--color-bg);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  
+
+}
+/* .slick-slide > div{
+  margin: 0.1rem;
+}
+.slick-dots li.slick-active button:before{
+  color: lightgreen !important;
+
+}
+.slick-dots li button:before{
+  color: #fff !important;
+  font-size: 1rem;
+  top : 2rem;
+}   */

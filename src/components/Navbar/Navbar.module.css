@@ -1,0 +1,144 @@
+@import "../../vars.css";
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  margin: 0 10%;
+  
+  padding-top: 0; /* Default: No padding for larger devices */
+}
+
+/* Media query for larger devices (e.g., tablets and desktops) */
+@media (min-width: 769px) {
+  .navbar {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+}
+
+
+.title {
+  font-size: clamp(0.1rem, 2vw + 0.75rem, 1.8rem);
+  text-decoration: none;
+  color: var(--color-text);
+  font-family: 'Martian Mono', monospace;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItems {
+  display: flex;
+  gap: 47px;
+  list-style: none;
+  transition: transform 0.3s ease;
+}
+
+.menuItems:hover {
+  transform: scale(1.1); /* Adjust the scale factor to zoom in (1.1 means 110% of original size) */
+  cursor: zoom-in; /* Change the cursor to indicate zooming in */
+}
+
+
+
+
+.menuItems a {
+  font-size: clamp(1.1rem, 1vw + 0.50rem, 1.3rem);
+  color: var(--color-text);
+  text-decoration: none;
+  font-family: 'Martian Mono', monospace;
+}
+
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.link img {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px;
+  transition: transform 0.3s ease;  /* Adjust the height as needed */
+}
+
+.link img:hover {
+  transform: scale(1.5); /* Adjust the scale factor to zoom in (1.1 means 110% of original size) */
+  cursor: zoom-in; /* Change the cursor to indicate zooming in */
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+
+  }
+  
+
+  .menuBtn {
+
+      display: block;
+      transition: transform 0.3s ease;
+      width: 30px; /* Adjust the width to your desired size */
+      height: 30px; /* Adjust the height to your desired size */
+      margin-top: 10px;
+
+    
+    transition: transform 0.3s ease;
+    
+  }
+
+  
+  .menuBtn:hover {
+    transform: scale(1.3); /* Adjust the scale factor to zoom in (1.1 means 110% of original size) */
+    cursor: zoom-in; /* Change the cursor to indicate zooming in */
+  }
+  
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgb(6, 6, 6);
+    /* background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgb(0, 0, 0) 100%
+    ); */
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+}
+.imgsiz {
+  width: clamp(2rem, 1vw + 0.50rem, 3rem);
+  height: clamp(2rem, 1vw + 0.50rem, 3rem); 
+  
+
+
+}

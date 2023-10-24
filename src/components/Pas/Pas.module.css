@@ -1,0 +1,127 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 50px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .container {
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+  .container {
+      margin-left: 2%;
+      margin-right: 2%;
+  }
+}
+  .title11 {
+      font-size: 30px;
+      font-weight: 600;
+      font-size: clamp(2.0rem, 2vw + 0.75rem, 6rem);
+      color: var(--color-text);
+    
+      /* background-image: linear-gradient(90deg,red,blue);
+      -webkit-background-clip:text;qq
+      color:transparent */
+    
+    
+      /* text-decoration: none; */
+      
+  }
+
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .box1 {
+    flex: 1;
+    min-width: 150px;
+    max-width: 25%; /* Adjust the width as a percentage of the parent container */
+    height: auto; /* Allow the height to adjust based on content */
+    border-radius: 15px;
+    font-size: clamp(1rem, 2vw + 0.75rem, 2rem); /* Set font-size to be responsive */
+    background-color: transparent;
+    color: aliceblue;
+    margin: 10px;
+    padding: 0; /* Remove padding to center content */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease; /* Add a smooth transition for the zoom effect */
+}
+
+  
+  .box1:hover {
+    transform: scale(0.9); /* Adjust the scale factor to zoom out (0.9 means 90% of original size) */
+    cursor: zoom-out; /* Change the cursor to indicate zooming out */
+  }
+  
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .box1 {
+      font-size: clamp(0.8rem, 2vw + 0.5rem, 1.5rem); /* Adjust font-size for smaller screens */
+    }
+  }
+  
+  /* Media query for even smaller screens */
+  @media screen and (max-width: 480px) {
+    .box1 {
+      font-size: clamp(0.6rem, 2vw + 0.3rem, 1rem); /* Further adjust font-size for very small screens */
+    }
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

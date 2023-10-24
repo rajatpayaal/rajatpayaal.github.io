@@ -1,0 +1,18 @@
+:root {
+  /* Colours */
+  --color-text: #ffffff;
+  --color-text2:linear-gradient(91.3deg, rgb(135, 174, 220) 1.5%, rgb(255, 255, 255) 100.3%);
+  --color-primary: #576cbc;
+  --color-secondary: #2b2c2e;
+  --color-dark: #0b2447;
+ 
+  --color-bg2:linear-gradient(to top, #09203f 0%, #537895 100%);
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+  --background: linear-gradient(91.3deg, rgb(135, 174, 220) 1.5%, rgb(255, 255, 255) 100.3%);
+  
+
+}
+
+

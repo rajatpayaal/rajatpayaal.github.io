@@ -1,0 +1,147 @@
+@import "../../vars.css";
+
+.container {
+  color: black;
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* .container:hover {
+  transform: scale(1.1); 
+  cursor: zoom-in; 
+}
+ */
+
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  font-size: clamp(2.5rem, 2vw + 0.75rem, 6rem);
+  color: var(--color-text);
+  letter-spacing: 5px;
+  background-image: radial-gradient( circle 321px at 8.3% 75.7%,  rgba(209,247,241,1) 0%, rgba(249,213,213,1) 81% );
+  -webkit-background-clip:text;
+  color:transparent;
+
+
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 14px;
+  
+}
+
+.skills {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+}
+
+.skillImageContainer img {
+  width: 75px;
+}
+
+.skill p {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+}
+
+.history {
+  /* content width increase */
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: #19376d;
+  background-image: linear-gradient(-60deg, #f59696 0%, #eea239 100%);
+  border-radius: 10px;
+  padding: 24px;
+  transition: transform 0.3s ease;
+}
+.historyItem:hover {
+  transform: scale(1.1); 
+  cursor: zoom-in; 
+}
+
+
+
+.historyItem img {
+  /* exp image size */
+  width: clamp(4rem, 1vw + 0.50rem, 8rem);
+}
+
+.historyItemDetails {
+  font-family: var(--font-roboto);
+}
+
+.historyItemDetails h3 {
+  /* software engin */
+  font-size: clamp(1.3rem, 2vw + 0.75rem, 2rem);
+  font-weight: 900;
+  text-shadow: 2px 2px 2px rgb(250, 247, 247);;
+  
+}
+
+.historyItemDetails p {
+  /* date  */
+ font-size: clamp(0.5rem, 2vw + 0.50rem, 1.5rem);
+  font-weight: 300;
+}
+
+.historyItemDetails ul {
+  /* role */
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: clamp(1rem, 1vw + 0.50rem, 1.3rem);
+  list-style-type: disc;
+  margin-left: 17px;
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .skills {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .history {
+    width: 100%;
+    gap: 9px;
+  }
+}

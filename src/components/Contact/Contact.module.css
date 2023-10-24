@@ -1,0 +1,131 @@
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 58px 5%; 
+  gap: 10px;
+  box-sizing: border-box; 
+  max-width: 100%; 
+  overflow-x: hidden;
+}
+
+
+.text h2 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  background-image: radial-gradient( circle 321px at 8.3% 75.7%,  rgba(209,247,241,1) 0%, rgba(249,213,213,1) 81% );
+  -webkit-background-clip:text;
+  color:transparent;
+
+
+  text-decoration: none;
+}
+
+.text p {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: font-size 0.3s ease; /* Add a smooth transition for font size change */
+}
+
+.text p:hover {
+  font-size: 24px; /* Adjust the font size for zoom-in effect */
+}
+
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  transition: transform 0.3s ease; /* Add a smooth transition for the zoom effect */
+}
+
+.link:hover {
+  transform: scale(1.2); /* Adjust the scale factor to zoom in (1.1 means 110% of original size) */
+  cursor: zoom-in; /* Change the cursor to indicate zooming in */
+}
+
+
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+}
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+.field input {
+  display: block;
+  min-width: 300px;
+  line-height: 1.5;
+  font-size: 4px;
+  
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 20px;
+  margin-left: 80px;
+  border-radius: 15px;
+  background-color: #000000;
+  color: #fff;
+  border: none
+}
+
+
+.box {
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+  background-image: linear-gradient(109.6deg, rgba(0, 191, 165, 1) 11.2%, rgba(0, 140, 122, 1) 100.2%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  align-content: center;
+  transition: transform 0.3s ease; /* Add a smooth transition for the zoom effect */
+}
+
+.box:hover {
+  transform: scale(1.1); /* Adjust the scale factor to zoom in (1.1 means 110% of original size) */
+  cursor: zoom-in; /* Change the cursor to indicate zooming in */
+}
+
+.text2{
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: 4px;
+  transition: transform 0.3s ease;
+}
