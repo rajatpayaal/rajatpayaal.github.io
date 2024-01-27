@@ -3,7 +3,7 @@
     "title": " Capstone (Data Analytics)",
     "imageSrc": "projects/analysis.png",
     "description": " Case Study 1: How Does a Bikes-Share Navigate Speedy Success , Case Study 2: How can a wellness technology company Play It Smart.",
-    "skills": [],
+    "skills": ["SQL", "Tableau", "Python"],
     "demo": "https://github.com/rajatpayaal/google_data_analytics",
     "source": "https://github.com/rajatpayaal/google_data_analytics"
   },
@@ -11,7 +11,7 @@
     "title": " Simple Notes Application",
     "imageSrc": "projects/note.png",
     "description": "Built a native notes application with an ad block, just 3 MB in size., Features include, URL support, map marker of the current location, and offline NOSQL database Utilized JAVA and Flutter",
-    "skills": [],
+    "skills": ["JavaScript","RestAPI","RDBMS"],
     "demo": "https://tinyurl.com/ymzp6rsx",
     "source": "https://github.com/rajatpayaal/Advance_Notes"
   },
@@ -27,7 +27,7 @@
   "title": " Inventory-stock-Analysis using R ",
     "imageSrc": "projects/basketanaly.png",
     "description": "Utilizing R and the Apriori algorithm, this project, 'Market Basket Analysis,' discovers shopping patterns, derives association rules, and visualizes insights for retail decision-making using the 'arules' package",
-    "skills": [],
+    "skills": ["R","Python"],
     "demo": "https://tinyurl.com/4tjm26h7",
     "source": "https://github.com/rajatpayaal/Ecommerce-basket-purchase-inventory-stock-Analysis.git"
   },
@@ -35,7 +35,7 @@
        "title": "buzz-chat-app",
   "imageSrc": "projects/buzzchat.png",
   "description": "A chat room is a web site and part of an online service that provides a venue for communities of users with a common interest to communicate in real time.",
-  "skills": [],
+  "skills": ["React","NodeJS","MongoDB"],
   "demo": "https://tinyurl.com/4tjm26h7",
   "source": "https://github.com/rajatpayaal/Intelli-Chat-Room.git"
 }

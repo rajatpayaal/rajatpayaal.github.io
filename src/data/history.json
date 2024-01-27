@@ -2,21 +2,17 @@
   {
     "role": "Software Development (Core Team Member)",
     "organisation": "Wayezi Technologies",
-    "startDate": "Jun 2020",
-    "endDate": "Jun 2021",
-    "experiences": ["Worked with Wayezi on UI/UX and Payment Team",
-    "Improved software performance, code optimization, debugging and work on REST APIs.",
-    " Worked on MVC architecture and learned to implement Microservices, Data pipelines and added Data Parsers"],
+    "startDate": "",
+    "endDate": "",
+    "experiences": [],
     "imageSrc": "history/wayezi.png"
   },
   {
     "role": "Artificial Intelligence Internship",
     "organisation": "Widhya",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Work with the Onboarding team and improved AI processes ‘efficiency as an AI intern",
-  "Flourished workflows using TensorFlow for model development and performance evaluation.",
-"Apriori Algorithm achieved 90-95% efficacy and responsibility are preprocessing Data, model construction"],
+    "startDate": "",
+    "endDate": "",
+    "experiences": [],
     "imageSrc": "history/Widhya.png"
   }
 ]
